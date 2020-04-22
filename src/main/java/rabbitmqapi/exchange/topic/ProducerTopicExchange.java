@@ -7,11 +7,11 @@ import com.rabbitmq.client.ConnectionFactory;
 public class ProducerTopicExchange {
     public static void main(String[] args) throws Exception {
         ConnectionFactory connectionFactory = new ConnectionFactory();
-        connectionFactory.setHost("10.58.190.40");
+        connectionFactory.setHost("xx.xx.xx.xx");
         connectionFactory.setPort(5672);
         connectionFactory.setVirtualHost("/");
-        connectionFactory.setUsername("mqadmin");
-        connectionFactory.setPassword("123456");
+        connectionFactory.setUsername("xxxx");
+        connectionFactory.setPassword("xxxx");
 
         //2 创建Connection
         Connection connection = connectionFactory.newConnection();
