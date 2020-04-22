@@ -9,11 +9,11 @@ public class ConsumerTopicExchange {
 
     public static void main(String[] args) throws Exception {
         ConnectionFactory connectionFactory = new ConnectionFactory();
-        connectionFactory.setHost("10.58.190.41");
+        connectionFactory.setHost("xxx.xx.xxx.xxx");
         connectionFactory.setPort(5672);
         connectionFactory.setVirtualHost("/");
-        connectionFactory.setUsername("mqadmin");
-        connectionFactory.setPassword("123456");
+        connectionFactory.setUsername("xxx");
+        connectionFactory.setPassword("xxxx");
         connectionFactory.setAutomaticRecoveryEnabled(true);
         connectionFactory.setNetworkRecoveryInterval(3000);
         Connection connection = connectionFactory.newConnection();
